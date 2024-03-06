@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="Sign_container">
+    <form action='confirm.php' method="post">
+      <h2><b>Change password</b></h2>
+      <label for="emailid"><b>Email </b></label>
+      <input id="emailid" name= "emailid" type="text" placeholder="Enter official email address" required/>
+      <label for="password"><b>New password </b></label>
+      <input id="password" name= "password" type="password" placeholder="Enter password" required/>
+      <label for="password1"><b>Confirm password </b></label>
+      <input id="password1" name= "password1" type="password" placeholder="Enter password again" required/>
+      <button type="submit" class="btn btn-success">Confirm</button>
+    </form>
+  </div>
+</body>
+</html>

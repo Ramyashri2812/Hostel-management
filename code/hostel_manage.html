@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hostel Management System</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+  <div class="container nav-container">
+    <div class="logo-container">
+      <a href="#" class="logo">
+        <img src="images/logo.jpeg" alt="Hostel Management System">
+      </a>
+			<h1>IIITDM</h1>
+    </div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Hostels</a></li>
+        <li><a href="#card">Rooms</a></li>
+        <li><a href="#footer">Contact</a></li>
+				<!-- <li><i class="bi bi-person-circle"></i></li> -->
+      </ul>
+			<!-- <div class="sub-menu-wrap">
+				<div class="sub-menu">
+					<div class="user-info">
+					</div>
+				</div>
+			</div> -->
+    </nav>
+  </div>
+</header>
+
+	<section class="hero">
+		<div class="container" id="home">
+			<h1>Welcome to IIITDM's Hostel Management System!</h1>
+			<p>Our hostel management system makes hostel registration easier.</p>
+		<a href="sign_in.html"><button>Log out</button></a>
+		</div>
+	</section>
+	<section class="images">
+		<div id="features" class="container-fluid bg-light text-center py-5">
+  <h2 class="mb-5">Take an insight at our hostels</h2>
+   <div class="row">
+    <div class="col-md-12">
+      <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/pic.png" class="img-fluid mx-auto d-block" alt="Feature 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/image2.jpg" class="img-fluid mx-auto d-block" alt="Feature 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/image1.jpg" class="img-fluid mx-auto d-block" alt="Feature 3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/image4.jpeg" class="img-fluid mx-auto d-block" alt="Feature 4">
+          </div>
+          <div class="carousel-item">
+            <img src="images/images5.jpg" class="img-fluid mx-auto d-block" alt="Feature 5">
+          </div>
+          <div class="carousel-item">
+            <img src="images/image6.jpg" class="img-fluid mx-auto d-block" alt="Feature 6">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	</section>
+	<section class="cards">
+		<div class="container" id="card">
+			<h2>Select your options</h2>
+			<div class="card-container">
+				<div class="card">
+					<div class="card-body">
+					<!-- <img src="form.jpeg" alt="Calendar"> -->
+					<span class="material-symbols-outlined">
+						description
+					</span>
+					<h3>Registration Form</h3>
+					<p>Registration is must for a student for hostel room allocations.</p>
+				</div>
+					<div class="card-footer text-muted mx-auto">
+					<a href="registration.html"><button type="submit">Register</button></a>
+				</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+					<span class="material-symbols-outlined">
+						bed
+					</span>
+					<h3>Room Allocation</h3>
+					<p>Click here to view your room allocation and the hostel room details.</p>
+				</div>
+				<div class="card-footer text-muted mx-auto">
+					<a href="room_display.php"><button>View rooms</button></a>
+				</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+					<span class="material-symbols-outlined">
+						info
+					</span>
+					<h3>Rules & Regulations</h3>
+					<p>Click here for rules and regulations</p>
+				</div>
+				<div class="card-footer text-muted mx-auto">
+					<a href="https://iiitk.ac.in/Rules-and-Regulations/page"><button>Click here</button></a>
+				</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+					<span class="material-symbols-outlined">
+						question_mark
+					</span>
+					<h3>Queries & Complaints</h3>
+					<p>Feel free to make a complaint or ask queries</p>
+				</div>
+					<div class="card-footer text-muted mx-auto">
+					<a href="complaints.html"><button type="button">Click here</button></a>
+			</div>
+		</div>
+		</div>
+	</div>
+	</section>
+
+<footer>
+  <div class="social-media" id="footer">
+		<a href="https://www.facebook.com/people/IIITDM-Kurnool/100063508256762/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/iiitdmkurnool?lang=en" class="fa fa-twitter"></a>
+		<a href="https://iiitk.ac.in/" class="fa fa-google"></a>
+		<a href="https://www.instagram.com/iiitdmkurnool/?hl=en" class="fa fa-instagram"></a>
+  </div>
+	<p>
+	Contact us:<br>
+  <a>Girls warden: warden1@iiitk.ac.in</a><br>
+  <a>0000000000</a><br>
+	<a>Boys warden: warden2@iiitk.ac.in</a><br>
+  <a>1111111111</a><br>
+</p>
+    <p>&copy; 2023 Hostel Management System. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
